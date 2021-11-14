@@ -31,4 +31,4 @@
  - [x] getClosestInteractables() check for if in group of interactables can be removed
 
 ## Hard tasks Reserved for Later
- - [] make dodge_roll self dependent instead of timer based.
+ - [ ] make dodge_roll self dependent instead of timer based.
