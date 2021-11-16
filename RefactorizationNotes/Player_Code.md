@@ -1,5 +1,5 @@
-#Player Code Notes
-##First Impressions
+# Player Code Notes
+## First Impressions
  - Classwide variables are high. Should make little difference as there is only 1 player. Should still be refactored
   - foot1, foot2, feet_area, managed_pits, foot1S, and food2S seem like they could be condensed.
  - pitfall system needs reworked in general. May be out of scope for this card & saved for the pitfall card
@@ -15,7 +15,7 @@
  - GlueBullet instance could be used as an injection point for passing information for upgrades.
  - dodge_roll might be refactorable to be dependent on itself instead of a timer (more consistent maybe)
 
-##Forming Ideas & Digging Deeper
+## Forming Ideas & Digging Deeper
  - foot1 & foot2 & feet_area may be removable as class variables. They are only used in UpdateFooting(), and they are refreshed there anyway.
  - the queued item on highlight (_process function) might be worth storing instead of calling getclosestinteractable() twice (and potentially having its results change).
   - This would increase ram usage slightly, but lighten processor load a bit more. Seems like a good change
@@ -24,11 +24,11 @@
  - Need to attempt to remove obj.is_in_group("interactable") in getClosestInteractables. Should be assumed (test to make sure, and route back changes for bad code)
  - Research how dodge_roll could be self dependent and not timer based.
 
-##Final Tasks
+## Final Tasks
  - [x] Remove foot1, foot2, and feet_area class variables
  - [x] create queued_interact class variable updated in _process function. pickupInteractable() can reference this in place of recalculating this
  - [x] Move dodge_roll attempt in controls() to after directional change
  - [x] getClosestInteractables() check for if in group of interactables can be removed
 
-##Hard tasks Reserved for Later
- - [] make dodge_roll self dependent instead of timer based.
+## Hard tasks Reserved for Later
+ - [ ] make dodge_roll self dependent instead of timer based.
