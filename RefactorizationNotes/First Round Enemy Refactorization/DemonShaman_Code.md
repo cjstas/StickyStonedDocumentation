@@ -19,6 +19,7 @@
  - 
 
 ## Final Tasks
+ - [ ] Normalize function/variable names
  - [ ] Group Navigation class variables together for clarity
  - [ ] Group functions together based on function. Establishing a good rule for other mobs eventually
  - [ ] Footing is not accounted for with this enemy. This needs to be added. can function off of current system and it will be picked up for later.

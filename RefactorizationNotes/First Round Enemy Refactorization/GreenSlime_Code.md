@@ -6,7 +6,8 @@
  - 
 
 ## Final Tasks
- - [ ]
+ - [ ] Normalize function/variable names
+ - [ ] Compare this to the slime flesh (and potentially do those things)
 
 ## Hard tasks Reserved for Later
  - [ ] 

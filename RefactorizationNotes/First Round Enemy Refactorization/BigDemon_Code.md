@@ -11,6 +11,7 @@
  - feet_area does not need to be a class variable. Proven by player
 
 ## Final Tasks
+ - [ ] Normalize function/variable names
  - [ ] Remove feet_area class variable
  - [ ] Rework the glued activity to function on a func_ref which is called through the process
 

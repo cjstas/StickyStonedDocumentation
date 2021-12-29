@@ -11,7 +11,10 @@
 
 
 ## Final Tasks
- - [x] No immediate tasks for this file
+ - [ ] Reference to room can be established here since it is used for all enemies.
+  - [ ] The room itself could also send out a signal with its current "state" upon it updating those variables. Refactor the room to support this and extend it to the mob & all mobs
+ - [ ] Normalize function/variable names
+ - [ ] Add logic for death on empty health to the process and remove it from individual enemies
 
 ## Hard tasks Reserved for Later
  - [ ] Need to review this and decide if this is the means we want or if a static reference file might be nicer.
